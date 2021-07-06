@@ -55,10 +55,7 @@ def rotate_resize_img(in_path, out_path):
     print("Image conversion completed.\n")
 
   
-#in_dir = "/home/xxxx/"
-#out_dir = "/opt/icons"
-
-in_dir = "/mnt/c/users/geomaedhros/code_test/new_dir"
-out_dir = "/mnt/c/users/geomaedhros/code_test/remastered"
+in_dir = "/home/student-00-3a3c27fe3a6a/images"
+out_dir = "/opt/icons"
 
 rotate_resize_img(in_dir, out_dir)
